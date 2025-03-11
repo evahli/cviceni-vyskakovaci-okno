@@ -9,22 +9,32 @@ body {
   background-color: #b4eafb;
   border-radius: 10px;
   font-size: 30px;
+  position: relative;
+  left: 200px;
 }
 
 button {
   width: 80px;
   height: 25px;
+  position: absolute;
+  top: calc(50%);
+  right: calc(50%);
 }
 
 .exit {
   color: black;
   width: 30px;
   border-radius: 3px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
 }
 
 .ok {
   background-color: #28a745;
   color: white;
+  position: absolute;
+  right: calc(50% - 40px)
 }
 
 /* sem přijdou tvoje styly */
