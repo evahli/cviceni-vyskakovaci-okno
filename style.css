@@ -5,12 +5,25 @@ body {
 .modal {
   width: 50vw;
   height: 40vh;
+  text-align: center;
   border: 15px solid #5bcef3;
   background-color: #b4eafb;
   border-radius: 10px;
   font-size: 30px;
   position: relative;
   left: 200px;
+}
+
+.modal2 {
+  width: 30vw;
+  height: 25vh;
+  text-align: center;
+  border: 10px solid #5bcef3;
+  background-color: #b4eafb;
+  border-radius: 10px;
+  font-size: 30px;
+  position: sticky;
+  left: 300px;
 }
 
 button {
@@ -26,9 +39,10 @@ button {
   width: 30px;
   border-radius: 3px;
   position: absolute;
-  right: 5px;
-  top: 5px;
+  right: 0px;
+  top: 0px;
 }
+
 
 .ok {
   background-color: #28a745;
